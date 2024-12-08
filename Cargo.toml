@@ -1,0 +1,15 @@
+[package]
+name = "a3mc-network-exporter"
+version = "0.1.0"
+edition = "2021"
+description = "Network Exporter"
+license = "MIT"
+repository = "https://github.com/matsuro-hadouken/nework-exporter"
+
+[dependencies]
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1.39.3", features = ["full"] }
+base64 = "0.22.1"
+serde = { version = "1.0.215", features = ["derive"] }
+serde_yaml = "0.9.34"
+clap = { version = "4.5.23", features = ["derive"] }
