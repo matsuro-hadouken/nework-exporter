@@ -2,6 +2,8 @@
 
 Prometheus network exporter to debug **edge cases** with basic auth
 
+Inspired by [Arthur Chiao Article](http://arthurchiao.art/blog/monitoring-network-stack)
+
 #### Installation
 
 Requirements:
